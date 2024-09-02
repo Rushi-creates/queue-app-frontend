@@ -19,7 +19,7 @@ class ApiLinks {
 /*                                //! Endpoints                               */
 /* -------------------------------------------------------------------------- */
 
-//@ notify next 5th queueuser by email (for his turn)
+//@ notify next 5th queueuser by email  (for his turn)
   static String notifyQu_byEmail = domainUrl + 'notifyUpcomingUserByEmail/';
 
 //@ Super admin
