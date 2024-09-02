@@ -3,9 +3,9 @@ import 'dart:convert';
 /* -------------------------------------------------------------------------- */
 /*                   //! Basic authentication credentials :                   */
 /* -------------------------------------------------------------------------- */
-String basicAuth_username = 'rushi.creates';
+String basicAuth_username = 'rushi';
 // String basicAuth_password = 'noq@123***';
-String basicAuth_password = 'noq@1*2*3*';
+String basicAuth_password = 'test123';
 String basicAuth = 'Basic ' +
     base64Encode(utf8.encode('$basicAuth_username:$basicAuth_password'));
 
@@ -13,7 +13,7 @@ class ApiLinks {
 /* -------------------------------------------------------------------------- */
 /*                                 //! Domain                                 */
 /* -------------------------------------------------------------------------- */
-  static const String domainUrl = 'https://no-q.herokuapp.com/';
+  static const String domainUrl = 'https://noq-v2.onrender.com/';
 
 /* -------------------------------------------------------------------------- */
 /*                                //! Endpoints                               */
