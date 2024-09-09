@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:no_queue2/service_layer/services/secret_credentials/global.dart';
 
 import '../service_layer/services/ApiHelper.dart';

@@ -4,7 +4,6 @@ import 'dart:convert';
 /*                   //! Basic authentication credentials :                   */
 /* -------------------------------------------------------------------------- */
 String basicAuth_username = 'rushi';
-// String basicAuth_password = 'noq@123***';
 String basicAuth_password = 'test123';
 String basicAuth = 'Basic ' +
     base64Encode(utf8.encode('$basicAuth_username:$basicAuth_password'));
